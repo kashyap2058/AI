@@ -1,2 +1,0 @@
-The dataset is available at Kaggle which contains all the train, test and validation datasets
-Link: https://www.kaggle.com/datasets/arpitjain007/dog-vs-cat-fastai
