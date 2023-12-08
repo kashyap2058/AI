@@ -1,0 +1,2 @@
+The dataset for brain tumor is present in kaggle which contains testing and training datas for 4 different kinds of tumors(Including no tumor).
+link: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
