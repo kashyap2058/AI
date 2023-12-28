@@ -1,0 +1,3 @@
+The following is a Cosine Similarity based movie recommendation system which uses TMDB 10000 dataset along with the streamlit app. To run the app.py, first run the ".ipynb" file in the dataset then run the app.py using <python -m streamlit runapp app.py> command.
+
+Dataset link: https://www.kaggle.com/datasets/apkaayush/tmdb-10000-movies-dataset
