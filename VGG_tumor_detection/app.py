@@ -8,8 +8,8 @@ import streamlit as st
 
 
 st.header("Brain Tumor Detector")
-model=models.load_model("VGG19Tumor_classification_CNN(new_dataset).h5")
-input_shape = (227, 227, 3)
+model=models.load_model("newVGG.h5")
+input_shape = (224, 224, 3)
 photo=Image.open('brain.webp')
 st.image(photo)
 file=st.file_uploader("Enter the top view of your Brain MRI image", type=['jpg','png','ppm'])
@@ -18,7 +18,7 @@ file=st.file_uploader("Enter the top view of your Brain MRI image", type=['jpg',
 
 def import_and_predict(image_data,MODEL):
     d = {0:'No tumor',1:'Tumor'}
-    input_shape = (227, 227, 3)
+    input_shape = (224, 224, 3)
     test_image = load_img(image_data,target_size = input_shape)
     test_image = image.img_to_array(test_image)
     test_image = np.expand_dims(test_image,axis = 0)
